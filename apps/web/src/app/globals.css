@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --bg: #0a0a0a;
+  --fg: #fafafa;
+  --muted: #71717a;
+  --border: #27272a;
+}
+
+html, body {
+  background: var(--bg);
+  color: var(--fg);
+  height: 100%;
+  overscroll-behavior-y: none;
+}
+
+* { -webkit-tap-highlight-color: transparent; }
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar { display: none; }
+  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  .snap-feed {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+  }
+  .snap-item { scroll-snap-align: start; scroll-snap-stop: always; }
+}

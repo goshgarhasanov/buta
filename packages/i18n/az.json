@@ -1,0 +1,70 @@
+{
+  "common": {
+    "loading": "Yüklənir...",
+    "error": "Xəta baş verdi",
+    "retry": "Yenidən cəhd et",
+    "save": "Yadda saxla",
+    "cancel": "Ləğv et",
+    "delete": "Sil",
+    "share": "Paylaş",
+    "more": "Daha çox",
+    "search": "Axtar"
+  },
+  "nav": {
+    "home": "Ana səhifə",
+    "discover": "Kəşf et",
+    "upload": "Yüklə",
+    "inbox": "Bildirişlər",
+    "profile": "Profil"
+  },
+  "auth": {
+    "login": "Daxil ol",
+    "register": "Qeydiyyatdan keç",
+    "logout": "Çıxış",
+    "username": "İstifadəçi adı",
+    "email": "Email",
+    "phone": "Telefon",
+    "password": "Parol",
+    "displayName": "Görünən ad",
+    "loginPrompt": "İstifadəçi adı, email və ya telefon ilə",
+    "registerPrompt": "Pulsuz hesab yarat",
+    "noAccount": "Hesabın yoxdur?",
+    "hasAccount": "Hesabın var?",
+    "invalidCredentials": "Yanlış istifadəçi adı və ya parol",
+    "passwordMin": "Parol minimum 8 simvol olmalıdır"
+  },
+  "feed": {
+    "foryou": "Sənin üçün",
+    "following": "İzlədiklərim",
+    "empty": "Hələ video yoxdur."
+  },
+  "video": {
+    "uploadTitle": "Video yüklə",
+    "uploadHint": "Klik edib video seç",
+    "uploadFormats": "MP4, MOV, WebM · max 180 saniyə",
+    "captionPlaceholder": "Təsvir yaz... #hashtag @qeyd",
+    "uploading": "Yüklənir...",
+    "processing": "Video emal olunur, bir az gözləyin...",
+    "done": "Yükləndi! Emal bitəndə feed-də görünəcək.",
+    "publish": "Paylaş"
+  },
+  "profile": {
+    "followers": "izləyici",
+    "following": "izlədikləri",
+    "likes": "bəyəndi",
+    "videos": "video",
+    "follow": "İzlə",
+    "unfollow": "İzləməni dayandır",
+    "edit": "Profili redaktə et",
+    "verified": "Təsdiqlənmiş hesab"
+  },
+  "actions": {
+    "like": "Bəyən",
+    "comment": "Şərh",
+    "save": "Saxla",
+    "share": "Paylaş",
+    "report": "Şikayət et",
+    "block": "Blokla",
+    "mute": "Səssizləşdir"
+  }
+}

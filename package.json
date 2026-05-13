@@ -1,0 +1,33 @@
+{
+  "name": "buta",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Buta — Azerbaijani short-video platform",
+  "author": "Goshgar Hasanov <hasnaov@gmail.com>",
+  "license": "AGPL-3.0",
+  "packageManager": "pnpm@11.1.1",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=11.0.0"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "infra:up": "docker compose -f infra/docker/docker-compose.dev.yml up -d",
+    "infra:down": "docker compose -f infra/docker/docker-compose.dev.yml down",
+    "infra:logs": "docker compose -f infra/docker/docker-compose.dev.yml logs -f",
+    "db:migrate": "pnpm --filter @buta/api prisma migrate dev",
+    "db:seed": "pnpm --filter @buta/api prisma db seed",
+    "db:studio": "pnpm --filter @buta/api prisma studio",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.3",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3"
+  }
+}
