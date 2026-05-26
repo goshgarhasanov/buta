@@ -158,3 +158,11 @@ AGPL-3.0 — a separate license can be negotiated for commercial use.
 - **Tech Lead / Founder**: [@goshgarhasanov](https://github.com/goshgarhasanov)
 
 Want to contribute? See `CONTRIBUTING.md` or open an issue.
+
+---
+
+## ☕ Support
+
+If this project is useful to you, you can support me with a coffee — thank you!
+
+**[☕ kofe.al/goshgarhasanov](https://kofe.al/goshgarhasanov)**
